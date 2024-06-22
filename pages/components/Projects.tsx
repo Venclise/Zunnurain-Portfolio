@@ -13,9 +13,9 @@ const Projects = () => {
 
       {
         Data.map(({id,title,img,desc,href}) => (
-          <PinContainer href={href} title={title} className="max-sm:w-[20rem] ">
+          <PinContainer href={href} title={title} className="max-sm:w-[20rem] " key={id}>
           
-          <a href={href} target="_blank" className="inter-var" key={id}>
+          <a href={href} target="_blank" className="inter-var" >
             
             
             <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl border  ">

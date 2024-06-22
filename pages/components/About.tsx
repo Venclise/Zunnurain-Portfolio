@@ -285,7 +285,7 @@ const SkeletonFive = () => {
         variants={variantsSecond}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
       >
-        <p className="text-xs text-neutral-500">You're in right place</p>
+        <p className="text-xs text-neutral-500">You&apos;re in right place</p>
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
       </motion.div>
     </motion.div>
@@ -296,7 +296,7 @@ const items = [
     title: "Effective Communication",
     description: (
       <span className="text-sm">
-        Valuing others' perspectives and fostering dialogue
+        Valuing others perspectives and fostering dialogue
       </span>
     ),
     header: <SkeletonOne />,

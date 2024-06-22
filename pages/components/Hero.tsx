@@ -7,7 +7,7 @@ const Hero =() => {
       
       <div className="flex flex-col gap-4 items-center justify-center">
       <h1 className="font-bold text-[9rem] max-md:text-8xl max-sm:text-6xl">WebDevloper.</h1>
-      <h2 className="text-md font-normal text-gray-600 ml-4 tracking-widest text-center">👋🏻Hy,I'm <span className="font-semibold">Zunnurain </span>,a Web developer,Based in Pakistan.</h2>
+      <h2 className="text-md font-normal text-gray-600 ml-4 tracking-widest text-center">👋🏻Hy,I&apos;m <span className="font-semibold">Zunnurain </span>,a Web developer,Based in Pakistan.</h2>
         
           <HoverBorderGradient
             containerClassName="rounded-full ml-4 "
