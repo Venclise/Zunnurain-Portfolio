@@ -53,6 +53,8 @@ type SpotlightProps = {
       </defs>
     </svg>
   );
+ }
 
+export default Spotlight
 
-   export default Spotlight;
+   

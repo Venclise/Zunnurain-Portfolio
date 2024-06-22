@@ -19,7 +19,7 @@ import { cn } from "../../../utils/cn";
   );
 };
 
-export defaut BentoGrid;
+export default BentoGrid;
 
 export const BentoGridItem = ({
   className,
