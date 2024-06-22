@@ -2,7 +2,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
-import { Spotlight } from "./components/ui/Spotlight";
+import  Spotlight  from "./components/ui/Spotlight";
 
 
 const Home = () => {
