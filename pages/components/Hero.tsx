@@ -1,4 +1,4 @@
-import {Grid} from "./ui/Grid"
+
 import HoverBorderGradient from "./ui/hover-border-gradient"
 import {MoveDown} from "lucide-react"
 const Hero =() => {
