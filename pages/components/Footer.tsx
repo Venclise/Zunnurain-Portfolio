@@ -18,10 +18,10 @@ const Footer = () => {
     };
 
     return (
-        <div className='w-full h-[10rem] p-10 flex items-center justify-center flex-col gap-4 border border-solid border-gray-200 p-10'>
+        <div className='w-full h-[15rem] p-10 flex items-center justify-center flex-col gap-6 border border-solid border-gray-200 p-10'>
             <h2 className='font-semibold text-2xl'>Want to work with me?</h2>
-            <button className='w-[15rem] h-[7rem] pt-5 pb-5  text-slate-800 bg-gray-200 rounded-full' onClick={copyToClipboard} >
-              {copySuccess ? copySuccess : <span className="flex items-center gap-4 ml-4"> <Clipboard className="w-[15px] h-[15px] "/> Copy my email here !</span>}
+            <button className='bg-gray-700 w-[15rem] h-[4rem]   text-white rounded-lg shadow-xl' onClick={copyToClipboard} >
+              {copySuccess ? copySuccess : <span className="flex items-center justify-center gap-2 ml-4"> <Clipboard className="w-[15px] h-[15px] "/> Copy my email here !</span>}
             </button>
             
         </div>
