@@ -50,10 +50,10 @@ const Projects = () => {
       {
         Data.map(({id,title,img,desc,href,tag}) => (
 
-          <SwiperSlide>
+          <SwiperSlide key={id}>
           
           
-          <a href={href} target="_blank" className="inter-var" key={id}>
+          <a href={href} target="_blank" className="inter-var" >
             
             
             <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30rem] h-[30rem] rounded-xl border  max-sm:w-[20rem]">
