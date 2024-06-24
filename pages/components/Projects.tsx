@@ -22,11 +22,11 @@ const Projects = () => {
     <div id="projects"className="h-max w-full p-10 z-[1] mt-12 ">
       <h1 className="font-semibold text-5xl text-black max-sm:text-3xl">Project Showcase.</h1>
 
-<div className="flex items-center gap-2 mt-12">
+<div className="flex items-center gap-1 mt-12">
 
   <Swiper
     slidesPerView={1}
-    spaceBetween={30}
+    spaceBetween={10}
     pagination={{
       clickable: true,
     }}
@@ -56,7 +56,7 @@ const Projects = () => {
           <a href={href} target="_blank" className="inter-var" >
             
             
-            <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30rem] h-[30rem] rounded-xl border  max-sm:w-[20rem]">
+            <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30rem] h-[30rem] rounded-xl border hover:shadow-xl  transition-all max-sm:w-[20rem]">
               
               
               <div  className="w-full mt-4">
