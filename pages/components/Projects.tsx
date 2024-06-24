@@ -19,7 +19,7 @@ import { Pagination } from 'swiper/modules';
 
 const Projects = () => {
   return (
-    <div id="projects"className="h-max w-full p-10 z-[1] mt-12 ">
+    <div id="projects"className="h-max w-full p-10 max-sm:p-1 max-sm:pt-10 max-sm:pb-10 z-[1] mt-12 ">
       <h1 className="font-semibold text-5xl text-black max-sm:text-3xl">Project Showcase.</h1>
 
 <div className="flex items-center gap-1 mt-12">
@@ -56,7 +56,7 @@ const Projects = () => {
           <a href={href} target="_blank" className="inter-var" >
             
             
-            <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30rem] h-[30rem] rounded-xl border hover:shadow-xl  transition-all max-sm:w-[20rem]">
+            <div className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30rem] h-[30rem] rounded-xl border hover:shadow-xl  transition-all max-sm:w-full">
               
               
               <div  className="w-full mt-4">
@@ -64,7 +64,7 @@ const Projects = () => {
                   src={img}
                   width="1000"
                   height="1000"
-                  className="h-60 w-full object-cover  "
+                  className="h-60 w-full object-contain"
                   alt="thumbnail"
                 />
               </div>
